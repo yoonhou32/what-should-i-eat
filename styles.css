@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  background-image: url(./icons/bg-utensils.png);
+  background-color: #f7d08a;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Bubblegum Sans", cursive;
+}
+
+.what-should-i-eat {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.sound-button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  width: 40px;
+}
+
+.sound-button img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.eat__heading {
+  font-size: 5rem;
+  color: #9d5c0d;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.eat__plate {
+  margin: 0 auto;
+  width: 350px;
+  height: 350px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.eat__img-wrapper {
+  width: 50%;
+}
+
+.eat__img {
+  width: 100%;
+}
+
+.eat__food-name {
+  color: #9d5c0d;
+  font-size: 3.125rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.eat__button {
+  background: #e5890a;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 2.18rem;
+  font-family: "Bubblegum Sans", cursive;
+  border: none;
+  width: 300px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+@media screen and (max-width: 650px) {
+  .eat__heading {
+    font-size: 3rem;
+  }
+
+  .eat__plate {
+    width: 230px;
+    height: 230px;
+  }
+
+  .eat__food-name {
+    font-size: 2rem;
+  }
+  .eat__button {
+    width: 150px;
+    font-size: 1.2rem;
+  }
+  .sound-button {
+    top: 8px;
+    right: 3px;
+  }
+
+  .sound-button img {
+    width: 30px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .eat__heading {
+    font-size: 2.5rem;
+  }
+  .eat__plate {
+    width: 230px;
+    height: 230px;
+  }
+
+  .eat__food-name {
+    font-size: 1.5rem;
+  }
+
+  .eat__img-wrapper {
+    width: 50%;
+  }
+
+  .eat__button {
+    width: 150px;
+    font-size: 1rem;
+  }
+}
