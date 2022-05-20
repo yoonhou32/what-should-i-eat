@@ -106,6 +106,7 @@ eatButton.addEventListener("click", () => {
 })
 
 document.addEventListener("DOMContentLoaded", () => {
+  audio.play()
   audio.muted = false
   soundButton.src = "./icons/sound-on.png"
   console.log("testing")
