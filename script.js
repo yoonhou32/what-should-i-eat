@@ -107,6 +107,11 @@ eatButton.addEventListener("click", () => {
   }, 2000)
 })
 
+window.addEventListener("onload", () => {
+  audio.muted = false
+  soundButton.src = "./icons/sound-on.png"
+})
+
 soundButton.addEventListener("click", () => {
   if (audio.muted) {
     audio.muted = false
