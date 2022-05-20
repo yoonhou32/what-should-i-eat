@@ -1,5 +1,3 @@
-console.log("hi")
-
 const foodImage = document.querySelector("[data-food-img]")
 const foodName = document.querySelector("[data-food-name]")
 const eatButton = document.querySelector("[data-eat-button]")
@@ -107,9 +105,10 @@ eatButton.addEventListener("click", () => {
   }, 2000)
 })
 
-window.addEventListener("onload", () => {
+document.addEventListener("DOMContentLoaded", () => {
   audio.muted = false
   soundButton.src = "./icons/sound-on.png"
+  console.log("testing")
 })
 
 soundButton.addEventListener("click", () => {
