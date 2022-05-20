@@ -83,6 +83,10 @@ body {
   width: 300px;
 }
 
+.eat__button:hover {
+  background-color: #9d5c0d;
+}
+
 .footer {
   position: absolute;
   bottom: 5px;
